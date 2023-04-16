@@ -16,9 +16,9 @@ quadrant3 = 'MDL'
 
 colours = {}
 colours[quadrant0] = '#000000'
-colours[quadrant1] = '#00ff00'
-colours[quadrant2] = '#0000ff'
-colours[quadrant3] = '#ff0000'
+colours[quadrant1] = '#555555'
+colours[quadrant2] = '#AAAAAA'
+colours[quadrant3] = '#ffffff'
 
 def print_(msg):
     pre = "Python >> "
@@ -271,7 +271,7 @@ if __name__ == '__main__':
 
     if try_c302:
         #ms = C302Simulation('configuration/test/c302/c302_B_Muscles.muscles.activity.dat', scale_to_max=True)
-        ms = C302Simulation('configuration/test/c302/c302_C1_Muscles.muscles.activity.dat', scale_to_max=True)
+        #ms = C302Simulation('configuration/test/c302/c302_C1_Muscles.muscles.activity.dat', scale_to_max=True)
         #ms = C302Simulation('../../../neuroConstruct/osb/invertebrate/celegans/CElegansNeuroML/CElegans/pythonScripts/c302/TestMuscles.activity.dat')
         #ms = C302Simulation('../../neuroConstruct/osb/invertebrate/celegans/CElegansNeuroML/CElegans/pythonScripts/c302/c302_B_Oscillator.muscles.activity.dat')
         skip_to_time = 0.05
